@@ -9,6 +9,7 @@
 html {
     display: flex;
     justify-content: center;
+    height: 5000px;
 }
 
 body {
@@ -177,25 +178,16 @@ header {
 .main {
     display: flex;
     height: 888px;
-    margin-top: 126;
 }
 
 .main-left {
     display: flex;
     flex-direction: column;
+    margin-top: 120px;
 
 
 }
-.main-title{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    width: 599px;
-    height: 156px;
-    text-align: left;
-    
 
-}
 .main-info{
     color: #2B2626;
     font-family: Montserrat;
@@ -235,11 +227,8 @@ header {
     background: #10B981;
     width: 263px;
     height: 70px;
-    top: 678px;
-    left: 85px;
     border-radius: 10px;
     margin-top: 52px;
-    margin-left: 85px;
     text-align: center;
     
 
@@ -247,21 +236,24 @@ header {
 }
 
 .main-right {
+    position: relative;
     display: flex;
     flex-direction: column;
     margin-left: 300px;
-    margin-top: 169pxs
+    margin-top: 75px;
 }
 
 .star-1-section {
-    margin-top: 75px;
-    margin-bottom: 40px;
+    position: relative;
+    right: 80px;
 }
 
 .star-2-section {
+    position: relative;
+    left: 80px;
     display: flex;
     justify-content: end;
-    margin-top: 40px;
+    top: 20px;
 }
 
 .star {
@@ -282,6 +274,191 @@ header {
     width: 280px;
     height: 299px;
 
+
 }
+.face-section{
+    width: 100px auto;
+    height: 100px;
+    margin-top: 134px;
+    display: flex;
+    position: relative;
+    left: 85px;
+}
+
+.face-1 {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    right: 0px;
+}
+
+.face-2 {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    right: 25px;
+}
+
+.face-3 {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    right: 50px;
+}
+
+.face-4 {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    right: 75px;
+}
+
+
+
+
+
+.wrapper-1 {
+    width: 1440px;
+    height: 888px;
+    margin-bottom: 85px;
+}
+
+.wrapper-2 {
+    display: flex;
+    width: 1440px;
+    height: 590px;
+    background-color: #845EC2;
+}
+
+
+.main-title-3 {
+    pointer-events: none;
+    width: 692.48px;
+    height: 73px;
+    top: 1083px;
+    left: 90.06px;
+    border: 1px;
+   
+   
+
+}
+
+.wrapper-2-left {
+    display: flex;
+    flex-direction: column;
+    width: 622.94px;
+    margin-top: 73px;
+    margin-left: 85px;
+
+}
+.Airpod-section{
+   display: flex; 
+}
+.Airpod-1{
+    width: 189.13px;
+    height: 331px;
+    border-radius: 179px;
+
+}
+
+.Airpod-2{
+    position: relative;
+    width: 189.13px;
+    height: 331px;
+    border-radius: 179px;
+    bottom: 40px;
+    margin-left: 32px;
+
+}
+
+.Airpod-3{
+    width: 189.13px;
+    height: 331px;
+    border-radius: 179px;
+    margin-left: 34px;
+}
+.price-section-1 {
+    width: 100%;
+    height: 35px;
+
+}
+.text-1 {
+    font-family: Montserrat;
+    font-size: 31px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+.wrapper-2-right {
+    margin-left: 130px;
+    margin-top: ;
+
+}
+.Products-section{
+    
+   
+    
+
+}
+.text-1{
+    font-family: Montserrat;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: 0em;
+    margin-top: 146px;
+    
+}
+.text-2{
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0em;
+    
+}
+.order-btn-2 {
+    box-shadow: 0px 25px 50px 0px #FFFFFF1A;
+    background: #10B981;
+    width: 263.18px;
+    height: 70px;
+    top: 1360px;
+    left: 837.58px;
+    border-radius: 10px;
+    
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+   
+
+}
+.view-btn-2 {
+    width: 120.08px;
+    height: 35px;
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 49px;
+
+}
+
+.wrapper-2-btns {
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+}
+
 
 
