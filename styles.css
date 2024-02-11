@@ -20,344 +20,19 @@ body {
     width: 1440px;
     height: 888px;
 }
-
-header {
-    display: flex;
-    margin-top: 40px;
-}
-
-.main-title-1 {
-    font-family: Montserrat;
-    font-size: 40px;
-    font-style: italic;
-    font-weight: 400;
-    line-height: 49px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #10B981;
-    margin-left: 85px;
-}
-
-.main-title-2 {
-    font-family: Montserrat;
-    font-size: 40px;
-    font-style: italic;
-    font-weight: 400;
-    line-height: 49px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #000000;
-}
-
-.search-section {
-    display: flex;
-    background-color: #FFFFFF;
-    width: 322px;
-    height: 63px;
-    align-items: center;
-    border-radius: 10px;
-    margin-left: 239px;
-    box-shadow: 0px 15px 50px 0px #2E839E12;
-}
-
-.search-input {
-    width: 266px;
-    height: 63px;
-    padding-left: 32px;
-    color: #29293033;
-    font-family: Montserrat;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 60px;
-    letter-spacing: 0em;
-    text-align: left;
-
-
-    
-}
-
-.search-btn{
-    width: 38px;
-    height: 38px;
-    background-color: #10B981;
-    border-radius: 10px;
-
-  
-}
-
-.glass-icon.svg {
-    
-   
-}
-
-.cart-btn {
-    display:flex;
-    align-items: center;
-    justify-content: center;
-
-    background-color: white;
-    border: #10B981;
-    width: 229px; 
-    height: 60px;
-    border-radius: 30px;
-    margin-left: 38px;
-    border: 1px solid #10B981;
-}
-
-.cart-btn-text {
-    font-family: Montserrat;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 60px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #2B2626;
-    margin-left: 19px;
-}
-
-.login-btn {
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0px 10px 35px 0px #0000001A;
-    background-color: #10B981;
-    width: 247px; 
-    height: 60px;
-    border-radius: 24px;
-    margin-left: 23px;
- 
-
-}
-
-.login-btn-text{
-    font-family: Montserrat;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 60px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #FFFFFF;
-    margin-left: 19px;
-}
-
-.navbar {
-    display: flex;
-    align-items: center;
-    width: 1440px;
-    height: 81px;
-    background-color: #10B981;
-    margin-top: 63px;
-   
-}
-
-.navbar__list{
-    display: flex;
-    width: 521px;
-    height: 24px;
-    margin-left: 460px;
-
-}
-
-.navbar__elem {
-    list-style-type: none;
-}
-
-.navbar__elem__btn{
-    display: flex;
-    margin-left: 25px;
-    color: #FFFFFF;
-    font-family: Montserrat;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: left;
-    margin-left: 75px;
-
-
-
-
-}
-
-.main {
-    display: flex;
-    height: 888px;
-}
-
-.main-left {
-    display: flex;
-    flex-direction: column;
-    margin-top: 120px;
-
-
-}
-
-.main-info{
-    color: #2B2626;
-    font-family: Montserrat;
-    font-size: 64px;
-    font-weight: 600;
-    line-height: 78px;
-    letter-spacing: 0em;
-    text-align: left;
-    display: inline-block;
-    margin-left:85px;
-
-}
-
-.info-text{
-    color: #2B2626;
-    width: 549;
-    height: 70px;
-    font-family: Montserrat;
-    font-size: 21px;
-    font-weight: 500;
-    line-height: 35px;
-    letter-spacing: 0em;
-    text-align: left;
-    display: inline-block;
-    margin-left: 85px;
-    margin-top: 30px;
-}
-
-
-.main-right {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    margin-left: 300px;
-    margin-top: 75px;
-}
-
-.star-1-section {
-    position: relative;
-    right: 80px;
-}
-
-.star-2-section {
-    position: relative;
-    left: 80px;
-    display: flex;
-    justify-content: end;
-    top: 20px;
-}
-
-.star {
-    width: 53px;
-    height: 53px;
-}
-
-.beats-background {
-    display: flex;
-    align-items: center;
-    background: #ECFEF4;
-    width: 272px;
-    height: 477px;
-    border-radius: 136px;  
-}
-
-.beats {
-    width: 280px;
-    height: 299px;
-
-
-}
-.face-section{
-    width: 100px auto;
-    height: 100px;
-    top:120px;
-    display: flex;
-    align-items: center;
-    position: relative;
-    left: 85px;
-}
-
-.face-1 {
-    width: 60px;
-    height: 60px;
-    position: relative;
-    right: 0px;
-}
-
-.face-2 {
-    width: 60px;
-    height: 60px;
-    position: relative;
-    right: 25px;
-}
-
-.face-3 {
-    width: 60px;
-    height: 60px;
-    position: relative;
-    right: 50px;
-}
-
-.face-4 {
-    width: 60px;
-    height: 60px;
-    position: relative;
-    right: 75px;
-}
-.face-5{
-    width: 69px;
-    height: 69px;
-    
-}
-.text-5{
-    color: #2B2626;
-    width: 112px;
-    height: 35px;
-    font-family: Montserrat;
-    font-size: 21px;
-    font-weight: 500;
-    line-height: 35px;
-    letter-spacing: 0em;
-    text-align: left;
-
-}
-.reviews_bloc{
-    display: flex;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-
-}
-.info-text-3{
-   font-family: Montserrat;
-    font-size: 26px;
-    font-weight: 500;
-    line-height: 35px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #2B2626;
-    position: relative;
-    right: 60px;
-    
-    
-
-}
-.face-btn{
-    position: relative;
-    bottom: 200px;
-    right: 200px;
-    
-}   
-
-.wrapper-1 {
-    width: 1440px;
-    height: 888px;
-    margin-bottom: 85px;
-}
-
 .wrapper-2 {
     display: flex;
     width: 1440px;
     height: 590px;
     background-color: #845EC2;
 }
-
-
+.wrapper-2-left {
+    display: flex;
+    flex-direction: column;
+    width: 622.94px;
+    margin-top: 73px;
+    margin-left: 85px;
+}
 .main-title-3 {
     pointer-events: none;
     width: 692.48px;
@@ -365,49 +40,23 @@ header {
     top: 1083px;
     left: 90.06px;
     border: 1px;
-   
-   
-
-}
-
-.wrapper-2-left {
-    display: flex;
-    flex-direction: column;
-    width: 622.94px;
-    margin-top: 73px;
-    margin-left: 85px;
-
 }
 .Airpod-section{
    display: flex; 
+   justify-content: space-between;
 }
-.Airpod-1{
+.Airpod {
     width: 189.13px;
     height: 331px;
     border-radius: 179px;
-
 }
-
-.Airpod-2{
+.raised { 
     position: relative;
-    width: 189.13px;
-    height: 331px;
-    border-radius: 179px;
     bottom: 40px;
-    margin-left: 32px;
-
-}
-
-.Airpod-3{
-    width: 189.13px;
-    height: 331px;
-    border-radius: 179px;
-    margin-left: 34px;
 }
 .price-section-1 {
     width: 100%;
     height: 35px;
-
 }
 .text-1 {
     font-family: Montserrat;
@@ -417,55 +66,27 @@ header {
     letter-spacing: 0em;
     text-align: center;
     color: #FFFFFF;
-
 }
+
 .wrapper-2-right {
     margin-left: 130px;
-    margin-top: ;
-
 }
-.Products-section{
-    
-   
-    
 
-}
-.text-1{
+.text-1 {
     font-family: Montserrat;
     font-size: 44px;
     font-weight: 600;
     line-height: 54px;
     letter-spacing: 0em;
     margin-top: 146px;
-    
 }
-.text-2{
+.text-2 {
     color: #FFFFFF;
     font-family: Montserrat;
     font-size: 21px;
     font-weight: 500;
     line-height: 35px;
     letter-spacing: 0em;
-    
-}
-.order-btn-2 {
-    box-shadow: 0px 25px 50px 0px #FFFFFF1A;
-    background: #10B981;
-    width: 263.18px;
-    height: 70px;
-    top: 1360px;
-    left: 837.58px;
-    border-radius: 10px;
-    
-    font-family: Montserrat;
-    font-size: 21px;
-    font-weight: 600;
-    line-height: 26px;
-    letter-spacing: 0em;
-    text-align: center;
-    color: #FFFFFF;
-   
-
 }
 .view-btn-2 {
     width: 120.08px;
@@ -478,20 +99,9 @@ header {
     text-align: center;
     color: #FFFFFF;
     margin-left: 49px;
-
 }
-
-
 .wrapper-2-btns {
     display: flex;
     align-items: center;
     margin-top: 35px;
-
 }
-
-      
-
-
-
-
-
