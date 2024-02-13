@@ -67,9 +67,6 @@ header {
     line-height: 60px;
     letter-spacing: 0em;
     text-align: left;
-
-
-    
 }
 
 .search-btn{
@@ -77,8 +74,6 @@ header {
     height: 38px;
     background-color: #10B981;
     border-radius: 10px;
-
-  
 }
 
 .glass-icon.svg {
@@ -184,8 +179,7 @@ header {
     display: flex;
     flex-direction: column;
     margin-top: 120px;
-
-
+    margin-left: 85px;
 }
 
 .main-info{
@@ -197,8 +191,6 @@ header {
     letter-spacing: 0em;
     text-align: left;
     display: inline-block;
-    margin-left:85px;
-
 }
 
 .info-text{
@@ -212,7 +204,6 @@ header {
     letter-spacing: 0em;
     text-align: left;
     display: inline-block;
-    margin-left: 85px;
     margin-top: 30px;
 }
 
@@ -230,9 +221,6 @@ header {
     border-radius: 10px;
     margin-top: 52px;
     text-align: center;
-    
-
-
 }
 
 .main-right {
@@ -273,16 +261,49 @@ header {
 .beats {
     width: 280px;
     height: 299px;
-
-
 }
-.face-section{
+
+.play-video-section {
+    position: relative;
+    right: 250px;
+    bottom: 175px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.play-video-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;   
+    margin-bottom: 10px;
+}
+
+.play-video-img {
+    border: #10B981 2px solid;
+    border-radius: 100%;
+}
+
+.play-video-text {
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.face-section {
+    display: flex;
+    align-items: center;
     width: 100px auto;
     height: 100px;
     margin-top: 134px;
     display: flex;
     position: relative;
-    left: 85px;
 }
 
 .face-1 {
@@ -313,7 +334,16 @@ header {
     right: 75px;
 }
 
-
+.reviews-text {
+    position: relative;
+    right: 60px;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+}
 
 
 
@@ -338,9 +368,6 @@ header {
     top: 1083px;
     left: 90.06px;
     border: 1px;
-   
-   
-
 }
 
 .wrapper-2-left {
