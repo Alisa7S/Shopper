@@ -9,12 +9,10 @@
 html {
     display: flex;
     justify-content: center;
-    height: 5000px;
 }
 
 body {
     width: 1440px;
-    height: 888px;
 }
 
 header {
@@ -227,7 +225,7 @@ header {
     position: relative;
     display: flex;
     flex-direction: column;
-    margin-left: 300px;
+    margin-left: 360px;
     margin-top: 75px;
 }
 
@@ -252,6 +250,7 @@ header {
 .beats-background {
     display: flex;
     align-items: center;
+    justify-content: center;
     background: #ECFEF4;
     width: 272px;
     height: 477px;
@@ -336,7 +335,7 @@ header {
 
 .reviews-text {
     position: relative;
-    right: 60px;
+    right: 30px;
     font-family: Montserrat;
     font-size: 26px;
     font-weight: 500;
@@ -409,7 +408,7 @@ header {
     height: 35px;
 
 }
-.text-1 {
+.text-price {
     font-family: Montserrat;
     font-size: 31px;
     font-weight: 400;
@@ -420,17 +419,15 @@ header {
 
 }
 .wrapper-2-right {
-    margin-left: 130px;
-    margin-top: ;
-
+    margin-left: 105px;
 }
+
 .Products-section{
     
-   
-    
-
 }
+
 .text-1{
+    color: #FFFFFF;
     font-family: Montserrat;
     font-size: 44px;
     font-weight: 600;
@@ -488,4 +485,749 @@ header {
 }
 
 
+@media (max-width: 1140px) {
+    html {
+        max-width: 1140px;
+    }
 
+    body {
+        max-width: 1140px;
+    }
+
+    .wrapper-1 {
+        max-width: 1140px; 
+        height: 750px;
+        margin-bottom: 0px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 0px;
+        height: 125px;
+    }
+
+    .main-title-1 {
+        margin-left: 0px;
+    }
+
+    .search-input {
+        width: 245px;
+    }
+
+    .search-section {
+        width: 300px;
+        margin-left: 0px;
+    }
+
+    .cart-btn {
+        width: 230px;
+        margin-left: 0px;
+    }
+
+    .login-btn {
+        width: 230px;
+        margin-left: 0px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: center;
+        width: 1140px;
+        height: 75px;
+        margin-top: 0px;
+    }
+
+    .navbar__list {
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 800px;
+        height: 150px;
+        margin-left: 0px;
+    }
+
+    .navbar__elem__btn {
+        margin-left: 0px;
+    }
+
+    .main {
+        flex-direction: row;
+        height: unset;
+    }
+    .main-left {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin-top: 30px;
+        margin-left: 80px;
+    }
+    .main-info {
+        height: unset;
+        font-size: 52px;
+        line-height: 70px;
+        margin-left: 0px;
+        margin-bottom: 30px;
+        width: 440px;
+    }
+
+    .info-text {
+        height: unset;
+        font-size: 20px;
+        line-height: 35px;
+        margin-top: 0px;
+        width: 440px;
+        margin-bottom: 30px;
+    }
+
+    .br-info-text {
+        display: none;
+    }
+
+    .order-btn {
+        margin-top: 0px;
+        width: 280px;
+    }
+
+    .face-section {
+        margin-top: 0px;
+        top: 20px;
+        margin-bottom: 20px;
+        width: 280px;
+    }
+
+    .main-right {
+        position: unset;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 200px;
+        margin-top: 30px;
+    }
+    
+    .reviews-text {
+        right: 60px;
+    }
+
+    .star-1-section {
+        right: 120px;
+        top: 0px;
+    }
+
+    .star-2-section {
+        left: 120px;
+        top: 0px;
+    }
+
+    .beats-background {
+        width: 180px;
+        height: 350px;
+    }
+
+    .beats {
+        height: 190px;
+        width: 180px;
+    }
+
+    .play-video-section {
+        right: 200px;
+        bottom: 94px;
+    }
+
+    /*------Вторая-секция 1140px------*/
+
+    .wrapper-2 {
+        flex-direction: row;
+        align-items: center;
+        width: 1140px;
+        height: 440px;
+        background-color: #845EC2;
+    }
+
+    .wrapper-2-left {
+        align-items: center;
+        width: 600px;
+        margin-top: 30px;
+        margin-left: 80px;
+    }
+
+    .main-title-3 {
+        pointer-events: none;
+        width: 500px;
+        border: 1px;
+    }
+
+    .Airpod-section {
+        flex-direction: row;
+        position: static;
+        position: relative;
+        left: 0px;
+        width: 500px;
+        justify-content: space-evenly;
+    }
+
+    .Airpod-1 {
+        margin-left: 0px;
+        margin-top: 10px;
+        height: 250px;
+        width: 150px;
+    }
+    .Airpod-2{
+        margin-left: 0px;
+        margin-top: 0px;
+        height: 250px;
+        width: 150px;
+
+    }
+    .Airpod-3{
+        margin-left: 0px;
+        margin-top: 10px;
+        height: 250px;
+        width: 150px;
+    }
+    .text-price {
+        font-size: 32px;
+        margin-top: 0px;
+
+    }
+    .Products-section {
+        flex-direction: column;
+        position: relative;
+        right: 35px;
+        bottom: 75px;
+    }
+    .text-1{
+        color: #FFFFFF;
+        font-family: Montserrat;
+        font-size: 34px;
+        font-weight: 600;
+        line-height: 54px;
+        letter-spacing: 0em;
+        margin-top: 120px;
+        
+    }
+    .text-2{
+        position: relative;
+        top: 20px;
+        font-size: 20px;     
+        width: 400px;
+    }
+    .wrapper-2-btns {
+        display: flex;
+        align-items: center;
+        margin-top: 0px;
+        position: relative;
+        bottom: 30px;
+    }
+    .order-btn-2 {
+        width: 200px;
+        height: 58px;
+        position: relative;
+        bottom: 19px;
+        left: -40px;
+        top: 0px;
+
+    }
+    .view-btn-2{
+        line-height: 25px;
+        position: relative;
+        position: relative;
+        right: 60px;
+        bottom:6px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    html {
+        max-width: 768px;
+    }
+
+    body {
+        max-width: 768px;
+    }
+
+    .wrapper-1 {
+        max-width: 768px; 
+        height: 825px;
+        margin-bottom: 0px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 0px;
+        height: 300px;
+    }
+
+    .main-title-1 {
+        margin-left: 0px;
+    }
+
+    .search-input {
+        width: 550px;
+    }
+
+    .search-section {
+        width: 600px;
+        margin-left: 0px;
+    }
+
+    .cart-btn {
+        width: 600px;
+        margin-left: 0px;
+    }
+
+    .login-btn {
+        width: 600px;
+        margin-left: 0px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: center;
+        width: 768px;
+        height: 75px;
+        margin-top: 0px;
+    }
+
+    .navbar__list {
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 600px;
+        height: 150px;
+        margin-left: 0px;
+    }
+
+    .navbar__elem__btn {
+        margin-left: 0px;
+    }
+
+    .main {
+        flex-direction: row;
+        height: unset;
+    }
+    .main-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .main-info {
+        height: unset;
+        font-size: 32px;
+        line-height: 40px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        width: 280px;
+    }
+
+    .info-text {
+        height: unset;
+        font-size: 16px;
+        line-height: 25px;
+        margin-top: 0px;
+        width: 280px;
+        margin-bottom: 20px;
+    }
+
+    .br-info-text {
+        display: none;
+    }
+
+    .order-btn {
+        margin-top: 0px;
+        width: 280px;
+    }
+
+    .face-section {
+        margin-top: 0px;
+        top: 20px;
+        margin-bottom: 20px;
+        width: 280px;
+    }
+
+    .main-right {
+        position: unset;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 200px;
+        margin-top: 30px;
+    }
+    
+    .reviews-text {
+        right: 60px;
+    }
+
+    .star-1-section {
+        right: 120px;
+        top: 25px;
+    }
+
+    .star-2-section {
+        left: 120px;
+        top: -25px;
+    }
+
+    .beats-background {
+        width: 150px;
+        height: 280px;
+    }
+
+    .beats {
+        height: 150px;
+        width: 140px;
+    }
+
+    .play-video-section {
+        right: 150px;
+        bottom: 132px;
+    }
+
+    /*------Вторая-секция 768px------*/
+
+    .wrapper-2 {
+        flex-direction: column;
+        width: 768px;
+        height: 1800px;
+        background-color: #845EC2;
+    }
+
+    .wrapper-2-left {
+        align-items: center;
+        width: 768px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .main-title-3 {
+        pointer-events: none;
+        width: 550px;
+        border: 1px;
+    }
+
+    .Airpod-section {
+        flex-direction: row;
+        position: static;
+        position: relative;
+        left: 0px;
+        width: 600px;
+        justify-content: space-evenly;
+    }
+
+    .Airpod-1 {
+        margin-left: 0px;
+        margin-top: 10px;
+        height: 280px;
+        width: 170px;
+    }
+    .Airpod-2{
+        margin-left: 0px;
+        margin-top: 0px;
+        height: 280px;
+        width: 170px;
+
+    }
+    .Airpod-3{
+        margin-left: 0px;
+        margin-top: 10px;
+        height: 280px;
+        width: 170px;
+    }
+    .text-price {
+        font-size: 32px;
+        margin-top: 0px;
+
+    }
+    .Products-section {
+        flex-direction: column;
+        position: relative;
+        right: 35px;
+        bottom: 75px;
+    }
+    .text-1{
+        color: #FFFFFF;
+        font-family: Montserrat;
+        font-size: 44px;
+        font-weight: 600;
+        line-height: 54px;
+        letter-spacing: 0em;
+        margin-top: 120px;
+        
+    }
+    .text-2{
+        position: relative;
+        top: 20px;     
+    }
+    .wrapper-2-btns {
+        display: flex;
+        align-items: center;
+        margin-top: 0px;
+        position: relative;
+        bottom: 30px;
+    }
+    .order-btn-2 {
+        width: 290px;
+        height: 58px;
+        position: relative;
+        bottom: 19px;
+        left: -40px;
+        top: 0px;
+
+    }
+    .view-btn-2{
+        line-height: 25px;
+        position: relative;
+        position: relative;
+        right: 60px;
+        bottom:6px;
+    }
+}
+
+
+@media (max-width: 360px) {
+    html {
+        max-width: 360px;
+    }
+
+    body {
+        max-width: 360px;
+    }
+
+    .wrapper-1 {
+        max-width: 360px;
+        height: 1440px;
+        margin-bottom: 0px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 0px;
+        height: 300px;
+    }
+
+    .main-title-1 {
+        margin-left: 0px;
+    }
+
+    .search-input {
+        width: 240px;
+    }
+
+    .search-section {
+        width: 300px;
+        margin-left: 0px;
+    }
+
+    .cart-btn {
+        width: 300px;
+        margin-left: 0px;
+    }
+
+    .login-btn {
+        width: 300px;
+        margin-left: 0px;
+    }
+
+    .navbar {
+        width: 360px;
+        height: 150px;
+        margin-top: 0px;
+    }
+
+    .navbar__list {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 360px;
+        height: 150px;
+        margin-left: 0px;
+    }
+
+    .navbar__elem__btn {
+        margin-left: 0px;
+    }
+
+    .main {
+        flex-direction: column;
+        height: 888px;
+    }
+    .main-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .main-info {
+        height: unset;
+        font-size: 32px;
+        line-height: 40px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        width: 280px;
+    }
+
+    .info-text {
+        height: unset;
+        font-size: 16px;
+        line-height: 25px;
+        margin-top: 0px;
+        width: 280px;
+        margin-bottom: 20px;
+    }
+
+    .br-info-text {
+        display: none;
+    }
+
+    .order-btn {
+        margin-top: 0px;
+        width: 280px;
+    }
+
+    .face-section {
+        margin-top: 0px;
+        top: 20px;
+        margin-bottom: 20px;
+        width: 280px;
+    }
+
+    .main-right {
+        position: unset;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    
+    .reviews-text {
+        right: 60px;
+    }
+
+    .star-1-section {
+        right: 120px;
+    }
+
+    .star-2-section {
+        left: 120px;
+        top: 0px;
+    }
+
+    .beats-background {
+        width: 200px;
+        height: 330px;
+    }
+
+    .beats {
+        height: 210px;
+        width: 200px;
+    }
+
+    .play-video-section {
+        right: 0px;
+        bottom: 0px;
+    }
+
+    /*------Вторая-секция 360px------*/
+
+    .wrapper-2 {
+        flex-direction: column;
+        width: 360px;
+        height: 1800px;
+        background-color: #845EC2;
+    }
+
+    .wrapper-2-left {
+        align-items: center;
+        width: 360px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .main-title-3 {
+        pointer-events: none;
+        width: 320px;
+        border: 1px;
+    }
+
+    .Airpod-section {
+        flex-direction: column;
+        position: static;
+        position: relative;
+        left: 8px;
+        width: unset;
+    }
+    .Airpod-1 {
+        margin-left: 0px;
+        margin-top: 10px;
+        height: 280px;
+        width: 170px;
+    }
+    .Airpod-2{
+        margin-left: 0px;
+        margin-top: 80px;
+        height: 280px;
+        width: 170px;
+
+    }
+    .Airpod-3{
+        margin-left: 0px;
+        margin-top: 10px;
+        height: 280px;
+        width: 170px;
+    }
+    .text-price {
+        font-size: 32px;
+        margin-top: 30px;
+
+    }
+    .Products-section {
+        flex-direction: column;
+        position: relative;
+        right: 35px;
+        bottom: 75px;
+    }
+    .text-1{
+        color: #FFFFFF;
+        font-family: Montserrat;
+        font-size: 44px;
+        font-weight: 600;
+        line-height: 54px;
+        letter-spacing: 0em;
+        margin-top: 146px;
+    }
+    .text-2{
+        position: relative;
+        top: 49px;     
+    }
+    .wrapper-2-btns {
+        display: flex;
+        align-items: center;
+        margin-top: 35px;
+    }
+    .order-btn-2 {
+        width: 290px;
+        height: 58px;
+        position: relative;
+        bottom: 19px;
+        left: -40px;
+        top: 0px;
+
+    }
+    .view-btn-2{
+        line-height: 25px;
+        position: relative;
+        position: relative;
+        right: 60px;
+        bottom:6px;
+    }
+}
