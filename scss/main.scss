@@ -1,5 +1,5 @@
-@import "./button.css";
-@import "./main.css";
+@import "../button.css";
+@import "../main.css";
 
 * {
 	margin: 0;
@@ -178,7 +178,7 @@ html {
 						color: #FFFFFF;
 						font-family: Montserrat;
 						font-size: 21px;
-						font-weight: 600;
+						font-weight: 600; 
 						line-height: 26px;
 						letter-spacing: 0em;
 						text-align: left;
@@ -188,6 +188,9 @@ html {
 						border-radius: 10px;
 						margin-top: 52px;
 						text-align: center;
+						&:hover {
+							background-color: var( --primary-hover);
+						}
 					}
 					.face-section {
 						display: flex;
@@ -407,13 +410,13 @@ html {
 				}								
 			}
 		}
-					.wrapper-2{
-						display: flex;
-						width: 1440px;
-						height: 590px;
-						background-color: #845EC2;
-		
-					.wrapper-2-left{
+			.wrapper-2{
+				display: flex;
+				width: 1440px;
+				height: 590px;
+				background-color: #845EC2;
+
+				.wrapper-2-left{
 						display: flex;
 						flex-direction: column;
 						width: 622.94px;
@@ -465,9 +468,9 @@ html {
 						color: #FFFFFF;
 					}
 				}
-					.wrapper-2-right{
-						margin-left: 140px;
-					
+				.wrapper-2-right{
+					margin-left: 140px;
+				
 					.text-1{
 						color: #FFFFFF;
 						font-family: Montserrat;
@@ -504,7 +507,7 @@ html {
 						height: 70px;
 						border-radius: 10px;
 						text-align: center;
-					}
+						}
 					.view-btn-2{
 						width: 120.08px;
 						font-family: Montserrat;
@@ -516,8 +519,337 @@ html {
 						color: #FFFFFF;
 						margin-left: 49px;
 					}
+				}
+			}
+			.wrapper-3 {
+				display: flex;
+				align-items: center;
+				flex-direction: column;
+				position: relative;
+				height: 829px;
+				margin-top: 121px;
+			.wrapper-3__title{
+				font-family: Montserrat;
+				font-size: 44px;
+				font-weight: 600;
+				line-height: 54px;
+				letter-spacing: 0em;
+				text-align: 0;
+				color: #000;
+			}
+			.wrapper-3__btns{
+				display: flex;
+				justify-content: center;
+				margin-bottom: 92px;
+				.wrapper-3__btns__top-picks {
+					background-color: #10B981;
+					border-radius: 100%;
+					width: 177px;
+					height: 91px;
+					font-family: Montserrat;
+					font-size: 26px;
+					font-weight: 600;
+					line-height: 32px;
+					letter-spacing: 0em;
+					color: #FFFFFF;
+					position: relative;
+					top: 55px;
+					right: 41px;
+				}
+				.wrapper-3__btns__watches{
+					width: 118px;
+					height: 32px;
+					font-family: Montserrat;
+					font-size: 26px;
+					font-weight: 600;
+					line-height: 32px;
+					letter-spacing: 0em;
+					text-align: left;
+					position: relative;
+					top: 88px;
+					left: 8px;
 
+				}
+			}
+			.cards{
+				display: flex;
+				gap: 92px;
+				.card{
+					.card__section{
+						position: relative;
+						display: flex;
+						flex-direction: column;
+						align-items: center;
+						justify-content: end;
+						width: 361px;
+						height: 438px;
+						border-radius:15px;
+						margin-bottom: 29px;
+						padding-bottom: calc((361px - 319px)/2);
+						.card__section__info{
+							display: flex;
+							flex-direction: column;
+							justify-content: center;
+							align-items: start;
+							background-color: white;
+							height: 164px;
+							width: 319px;
+							border-radius: 15px;
+							gap: 10px;
+							padding-left: 50px;
+							.card__section__info__rating{
+								display: flex;
+								.card__section__info__rating__reviews{
+									margin-left: 13px;
+								}
+							}
+						}
+						.card__section__product-img{
+							width: 225px;
+							height: 225px;
+						}
+						.card__section__save{
+							position: absolute;
+							display: flex;
+							justify-content: center;
+							align-items: center;
+							height: 100px;
+							width: 100px;
+							border-radius: 100%;
+							text-align: center;
+							right: 15px;
+							top: 15px;
+						}
+						.bg-save-color-1{
+							background-color: #10B981;
+						}
+						.bg-save-color-2{
+							background-color: #845EC2;
+						}
+					}
+					
+					.bg-card-section-color-1{
+						background-color: #ECFEF4;
+					}
+					.bg-card-section-color-2{
+						background-color: #C9F2FF;
+					}
+					.bg-card-section-color-3{
+						background-color: #E5D5FF;
+					}
+
+					.card__btn {
+						width: 361px;
+						height: 70px;
+						border-radius: 10px;
+						font-family: Montserrat;
+						font-size: 21px;
+						font-weight: 600;
+						line-height: 26px;
+						letter-spacing: 0em;
+						color: #FFFFFF;
+						background-color: var(--primary);
+					}
+				}				
+			}
+			.arrow-slider {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				position: absolute;
+				height: 60px;
+				width: 60px;
+				top: 427px;
+				left: 1354px;
+				border-radius: 100%;
+				transition: all 0.3s ease;
+				/*
+				&:hover{
+					background-color: rgba(0, 0, 0, 0.1);
+				}
+				.arrow-slider-img{
+					padding-left: 5px;
+				}
+				*/
 			}
 		}
-	}
+					.wrapper-4 {
+						display: flex;
+						align-items: center;
+						flex-direction: column;
+						height: 829px;
+						margin-top: 121px;
+						position: relative;
+					.wrapper-4__title{
+						font-family: Montserrat;
+						font-size: 44px;
+						font-weight: 600;
+						line-height: 54px;
+						letter-spacing: 0em;
+						text-align: 0;
+						color: #000;
+					}
+					.wrapper-4__btns{
+						display: flex;
+						justify-content: center;
+						margin-bottom: 92px;
+					.wrapper-4__btns__earbuds{
+						background-color: #10B981;
+						border-radius: 100%;
+						width: 177px;
+						height: 91px;
+						font-family: Montserrat;
+						font-size: 26px;
+						font-weight: 600;
+						line-height: 32px;
+						letter-spacing: 0em;
+						color: #FFFFFF;
+						position: relative;
+						top: 55px;
+						right: 70px;
+					}
+					.wrapper-4__btns__wireless{
+						width: 115px;
+						height: 32px;
+						font-family: Montserrat;
+						font-size: 26px;
+						font-weight: 600;
+						line-height: 32px;
+						letter-spacing: 0em;
+						text-align: left;
+						position: relative;
+						top: 88px;
+						left: 8px;
+					}
+					.wrapper-4__btns__wired{
+						font-family: Montserrat;
+						font-size: 26px;
+						font-weight: 600;
+						line-height: 32px;
+						letter-spacing: 0em;
+						text-align: left;
+						width: 82px;
+						height: 32px;
+						position: relative;
+						top: 88px;
+						left: 79px;
+				
+					}
+				}
+				.cards{
+					display: flex;
+					gap: 92px;
+					.card{
+						.card__section{
+							position: relative;
+							display: flex;
+							flex-direction: column;
+							align-items: center;
+							justify-content: end;
+							width: 361px;
+							height: 438px;
+							border-radius:15px;
+							margin-bottom: 29px;
+						.card__section__info{
+							display: flex;
+							flex-direction: column;
+							justify-content: center;
+							align-items: start;
+							background-color: white;
+							height: 164px;
+							width: 319px;
+							border-radius: 15px;
+							gap: 10px;
+							padding-left: 50px;
+							margin-bottom: 21px;
+						.card__section__info__rating{
+								display: flex;
+						}
+						.card__section__info__rating__reviews{
+								margin-left: 13px;
+							}
+						}
+						.card__section__product-img1{
+							width: 168px;
+							height: 168px;
+							margin-bottom: 10px;
+						}
+						.card__section__product-img2{
+							width: 241px;
+							height: 241px;
+						}
+						.card__section__product-img3{
+							width: 250px;
+							height: 250px;
+						}
+						
+						.card__section__info{
+							
+						}
+						
+					.card__section__save{
+						position: absolute;
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						height: 100px;
+						width: 100px;
+						border-radius: 100%;
+						text-align: center;
+						right: 15px;
+						top: 15px;
+					}
+					
+					}
+					.bg-save-color-1{
+						background-color: #10B981;
+					}
+					.bg-save-color-2{
+						background-color: #08BDBE;
+					}
+
+					}
+					.bg-card-section-color-1{
+						background-color: #E0EFFF;
+
+					}
+					.bg-card-section-color-2{
+						background-color: #E8F9FF;
+
+					}
+					.bg-card-section-color-3{
+						background-color: #D3FBFB;
+
+					}
+					.card__btn {
+						width: 361px;
+						height: 70px;
+						border-radius: 10px;
+						font-family: Montserrat;
+						font-size: 21px;
+						font-weight: 600;
+						line-height: 26px;
+						letter-spacing: 0em;
+						color: #FFFFFF;
+						background-color: var(--primary);
+					}
+				}
+					
+				.arrow-slider {
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					position: absolute;
+					height: 60px;
+					width: 60px;
+					top: 427px;
+					left: 1354px;
+					border-radius: 100%;
+					transition: all 0.3s ease;
+				}
+			}	
+		}
+
 }
+
+	
