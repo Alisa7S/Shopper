@@ -597,6 +597,12 @@ html body .wrapper-3 .cards .card .card__section .card__section__product-img {
   height: 225px;
 }
 html body .wrapper-3 .cards .card .card__section .card__section__save {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  color: #FFFFFF;
   position: absolute;
   display: flex;
   justify-content: center;
@@ -604,7 +610,6 @@ html body .wrapper-3 .cards .card .card__section .card__section__save {
   height: 100px;
   width: 100px;
   border-radius: 100%;
-  text-align: center;
   right: 15px;
   top: 15px;
 }
@@ -659,9 +664,9 @@ html body .wrapper-4 {
   display: flex;
   align-items: center;
   flex-direction: column;
-  height: 829px;
   margin-top: 121px;
   position: relative;
+  margin-bottom: 130px;
 }
 html body .wrapper-4 .wrapper-4__title {
   font-family: Montserrat;
@@ -766,6 +771,12 @@ html body .wrapper-4 .cards .card .card__section .card__section__product-img3 {
   height: 250px;
 }
 html body .wrapper-4 .cards .card .card__section .card__section__save {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  color: #FFFFFF;
   position: absolute;
   display: flex;
   justify-content: center;
@@ -773,7 +784,6 @@ html body .wrapper-4 .cards .card .card__section .card__section__save {
   height: 100px;
   width: 100px;
   border-radius: 100%;
-  text-align: center;
   right: 15px;
   top: 15px;
 }
@@ -815,4 +825,386 @@ html body .wrapper-4 .arrow-slider {
   left: 1354px;
   border-radius: 100%;
   transition: all 0.3s ease;
+}
+html body .wrapper-5 {
+  width: 1439px;
+  height: 765px;
+  background-color: #E0EFFF;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+html body .wrapper-5 .wrapper-5__title {
+  width: 334px;
+  font-family: Montserrat;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 54px;
+  letter-spacing: 0em;
+  margin-bottom: 120px;
+}
+html body .wrapper-5 .wrapper-5__section__airdrop {
+  display: flex;
+  width: 1439px;
+  height: 591px;
+  background-color: #845EC2;
+}
+html body .wrapper-5 .wrapper-5__section__airdrop .wrapper-5__section__airdrop__left {
+  position: relative;
+  width: 700px;
+  height: 590px;
+  left: 101px;
+  top: 16px;
+}
+html body .wrapper-5 .wrapper-5__section__airdrop .wrapper-5__section__airdrop__left .arrow-slider-img {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  top: 262px;
+  right: 83px;
+}
+html body .wrapper-5 .wrapper-5__section__airdrop .wrapper-5__section__airdrop__left .beats__section-img1 {
+  width: 521px;
+  height: 468px;
+  position: relative;
+  right: 15px;
+  bottom: 5px;
+}
+html body .wrapper-5 .wrapper-5__section__airdrop .wrapper-5__section__airdrop__right {
+  position: relative;
+  width: 584px;
+  height: 446px;
+}
+html body .wrapper-5 .wrapper-5__section__airdrop .wrapper-5__section__airdrop__right .wrapper-5__section__airdrop__title {
+  font-family: Montserrat;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 73px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+  margin-top: 73px;
+  margin-bottom: 29px;
+}
+html body .wrapper-5 .wrapper-5__section__airdrop .wrapper-5__section__airdrop__right .wrapper-5__section__airdrop__text {
+  width: 584px;
+  height: 70px;
+  margin-bottom: 24px;
+}
+html body .wrapper-5 .wrapper-5__section__airdrop .wrapper-5__section__airdrop__right .wrapper-5__text {
+  font-family: Montserrat;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+  margin-bottom: 24px;
+}
+html body .wrapper-5 .wrapper-5__section__airdrop .wrapper-5__section__airdrop__right .wrapper-5__price {
+  font-family: Montserrat;
+  font-size: 31px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+  margin-bottom: 56px;
+}
+html body .wrapper-5 .wrapper-5__section__airdrop .wrapper-5__section__airdrop__right .wrapper-5__dolars {
+  font-family: Montserrat;
+  font-size: 31px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #E0EFFF;
+  margin-left: 30px;
+}
+html body .wrapper-5 .wrapper-5__section__airdrop .wrapper-5__section__airdrop__right .wrapper-5__section__airdrop__circle {
+  width: 196px;
+  height: 43px;
+  display: flex;
+  justify-content: start;
+  gap: 35px;
+}
+html body .wrapper-5 .wrapper-5__section__airdrop .wrapper-5__section__airdrop__right .wrapper-5__right__btns {
+  width: 523px;
+  height: 70px;
+  border-radius: 10px;
+}
+html body .wrapper-5 .wrapper-5__section__airdrop .wrapper-5__section__airdrop__right .order-btn {
+  margin-top: 50px;
+}
+html body .wrapper-5 .wrapper-5__section__airdrop .wrapper-5__section__airdrop__right .wrapper-5__right__btn-2 {
+  width: 143px;
+  height: 26px;
+  font-family: Montserrat;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #E0EFFF;
+  position: relative;
+  left: 77px;
+}
+html body .wrapper-5 .wrapper-5__section__airdrop .wrapper-5__section__airdrop__right .arrow-slider-img {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  left: 100px;
+  bottom: 200px;
+  left: 604px;
+}
+html body .wrapper-6 {
+  width: 1439px;
+  height: 765px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+html body .wrapper-6 .wrapper-6__section__up {
+  width: 1068px;
+  height: 91px;
+  position: relative;
+  top: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+html body .wrapper-6 .wrapper-6__question {
+  width: 213px;
+  height: 29px;
+  Font: DM Sans;
+  color: #000000;
+  font-family: DM Sans;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: -0.3px;
+  text-align: left;
+}
+html body .wrapper-6 .wrapper-6__btn {
+  width: 175px;
+  height: 50px;
+  background: #10B981;
+  font-family: DM Sans;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: -0.2px;
+  color: #FFFFFF;
+  margin-left: 40px;
+}
+html body .wrapper-6 .wrapper-6__Divider {
+  width: 1068px;
+  height: 1px;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+html body .wrapper-6 .wrapper-6__section__website {
+  width: 289px;
+  height: 139px;
+  position: relative;
+  right: 391px;
+}
+html body .wrapper-6 .wrapper-6__section__website .wrapper-6__section__site {
+  width: 165px;
+  height: 58px;
+  font-family: DM Sans;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: -0.3px;
+  text-align: left;
+  color: #111111;
+}
+html body .wrapper-6 .wrapper-6__section__website .wrapper-6__section__email {
+  display: flex;
+  position: relative;
+  top: 40px;
+  width: 165px;
+  font-family: DM Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: -0.2px;
+  text-align: left;
+  color: #696363;
+}
+html body .wrapper-6 .wrapper-6__section__website .wrapper-6__section__btn {
+  position: relative;
+  left: 201px;
+  background-color: #10B981;
+  width: 50px;
+  height: 50px;
+  border-radius: 8px 8px 0px 0px;
+}
+html body .wrapper-6 .wrapper-6__section__website .wrapper-6__section__separate {
+  position: relative;
+  bottom: 18px;
+}
+html body .wrapper-6 .wrapper-6__section__website .wrapper-6__section__path {
+  color: white;
+  position: relative;
+  left: 168px;
+  bottom: 19px;
+}
+html body .wrapper-6 .wrapper-6__section__services {
+  width: 106px;
+  height: 182px;
+  position: relative;
+  right: 65px;
+  bottom: 140px;
+  line-height: 35px;
+}
+html body .wrapper-6 .wrapper-6__section__services .section__services__S-1 {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 17px;
+  letter-spacing: -0.2px;
+  color: #10B981;
+}
+html body .wrapper-6 .wrapper-6__section__services .section__services__E-1 {
+  color: #111111;
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: -0.2px;
+}
+html body .wrapper-6 .wrapper-6__section__services .section__services__C-1 {
+  color: #111111;
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: -0.2px;
+}
+html body .wrapper-6 .wrapper-6__section__services .section__services__B-1 {
+  color: #111111;
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: -0.2px;
+}
+html body .wrapper-6 .wrapper-6__section__services .section__services__O-1 {
+  color: #111111;
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: -0.2px;
+}
+html body .wrapper-6 .wrapper-6__section__about {
+  width: 106px;
+  height: 182px;
+  position: relative;
+  left: 170px;
+  bottom: 316px;
+  line-height: 35px;
+}
+html body .wrapper-6 .wrapper-6__section__about .section__about__A-2 {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 17px;
+  letter-spacing: -0.2px;
+  color: #10B981;
+  width: 48px;
+}
+html body .wrapper-6 .wrapper-6__section__about .section__about__O-2 {
+  color: #111111;
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: -0.2px;
+}
+html body .wrapper-6 .wrapper-6__section__about .section__about__B-2 {
+  color: #111111;
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: -0.2px;
+}
+html body .wrapper-6 .wrapper-6__section__about .section__about__T-2 {
+  color: #111111;
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: -0.2px;
+}
+html body .wrapper-6 .wrapper-6__section__about .section__about__C-2 {
+  color: #111111;
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: -0.2px;
+}
+html body .wrapper-6 .wrapper-6__section__help {
+  width: 106px;
+  height: 182px;
+  position: relative;
+  left: 352px;
+  bottom: 490px;
+  line-height: 35px;
+}
+html body .wrapper-6 .wrapper-6__section__help .wrapper-6__section__help__H-3 {
+  color: #10B981;
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: -0.2px;
+}
+html body .wrapper-6 .wrapper-6__section__help .wrapper-6__section__help__F-3 {
+  color: #111111;
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: -0.2px;
+}
+html body .wrapper-6 .wrapper-6__section__help .wrapper-6__section__help__C-3 {
+  color: #111111;
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: -0.2px;
+}
+html body .wrapper-6 .wrapper-6__section__footer {
+  width: 1068px;
+  height: 22px;
+  position: absolute;
+  bottom: 150px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+}
+html body .wrapper-6 .wrapper-6__section__footer .wrapper-6__section__footer-info-1 {
+  width: 134px;
+  height: 20px;
+  font-family: DM Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.2px;
+  text-align: left;
+}
+html body .wrapper-6 .wrapper-6__section__footer .wrapper-6__section__footer-info-2 {
+  width: 134px;
+  height: 20px;
+  font-family: DM Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.2px;
+  text-align: left;
+  margin-left: 39px;
+}
+html body .wrapper-6 .wrapper-6__section__footer .wrapper-6__section__footer-social {
+  width: 134px;
+  height: 22px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  right: 0px;
 }/*# sourceMappingURL=main.css.map */
