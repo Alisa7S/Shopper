@@ -4,16 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shopper</title>
-    <link rel="stylesheet" href="./scss/main.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./adaptive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section class="wrapper-1">
+    <!-- mobil.menu-->
+    <section class="mobile-menu swing-out-right-bck">
+        <button class="mobile-menu__close">
+            x
+        </button>
+        <div class="search-section">
+            <input type="text" class="search-input" value="Search Items">
+            <button class="search-btn">
+                <img src="./svg/glass-icon.svg" alt="glass-icon.svg">
+            </button>
+        </div>
+    
+        <ul class="mobile-menu__links">
+            <li class="mobile-menu__links—link"><a class="menu-link" href="#Products">Features</a></li>
+            <li class="mobile-menu__links—link"><a class="menu-link" href="#Sellers">Products</a></li>
+            <li class="mobile-menu__links—link"><a class="menu-link" href="#Launches">Blog</a></li>
+            <li class="mobile-menu__links—link"><a class="menu-link" href="#Earphones">About</a></li>
+        </ul>
+    </section>
+    
+      
+    <!-- < Header  -->
+<section class="wrapper-1">
         <header>
             <p class="main-title-1">Shop<span class="main-title-2">per</span></p>
-
+            <button class="burger-menu"><img src="./img/menu.png" alt=""></button>
             <div class="search-section">
                 <input type="text" class="search-input" value="Search Items">
                 <button class="search-btn">
@@ -33,12 +56,12 @@
         </header>
 
         <nav class="navbar">
-        <ul class="navbar__list">
-            <li class="navbar__elem"><button class="navbar__elem__btn">Features</button></li>
-            <li class="navbar__elem"><button class="navbar__elem__btn">Products</button></li>
-            <li class="navbar__elem"><button class="navbar__elem__btn">Blog</button></li>
-            <li class="navbar__elem"><button class="navbar__elem__btn">About</button></li>
-        </ul>
+            <ul class="navbar__list">
+                <li class="navbar__elem"><button class="navbar__elem__btn">Features</button></li>
+                <li class="navbar__elem"><button class="navbar__elem__btn">Products</button></li>
+                <li class="navbar__elem"><button class="navbar__elem__btn">Blog</button></li>
+                <li class="navbar__elem"><button class="navbar__elem__btn">About</button></li>
+            </ul>
         </nav>
 
         <div class="main">
@@ -102,10 +125,9 @@
                 </div>
             </div>
         </div>
-</section>
+ </section>
 
-
-<section class="wrapper-2">
+<section class="wrapper-2" id="Products">
     <div class="wrapper-2-left">
         <img class="main-title-3" src="./svg/a.svg" alt="Apple wireless Airpod.svg">
         <div class="Airpod-section">
@@ -130,7 +152,7 @@
     </div>
 </section>
 
-<section class="wrapper-3">
+<section class="wrapper-3" id="Sellers">
     <p class="wrapper-3__title">Top Sellers</p>
     <div class="wrapper-3__btns">
         <button class="wrapper-3__btns__top-picks">Top Picks</button>
@@ -202,7 +224,7 @@
     </div>
 </section>
 
-<section class="wrapper-4">
+<section class="wrapper-4" id="Earphones">
     <p class="wrapper-4__title">Trending Earphones</p>
     <div class="wrapper-4__btns">
         <button class="wrapper-4__btns__earbuds">Earbuds</button>
@@ -274,16 +296,16 @@
     </div>
 </section>
 
-
-<section class="wrapper-5">
+<section class="wrapper-5" id="Launches">
     <p class="wrapper-5__title">New Launches</p>
     <div class="wrapper-5__section__airdrop">
+        <div class="arrow-slider-1">
+            <img class="arrow-slider-img_1" src="./svg/Group 36.svg" alt="Group 36.svg">
+        </div>
         <div class="wrapper-5__section__airdrop__left">
-            <div class="arrow-slider-1">
-                <img class="arrow-slider-img" src="./svg/Group 36.svg" alt="Group 36.svg">
-            </div>
             <div class="beats__section">
-                <img class="beats__section-img1" src="./img/Group 32.png" alt="Group 32.png">
+                <img class="beats__section__img-1" src="./img/1111.png" alt="">
+                <img class="beats__section__img-2" src="./img/2222.png" alt="">
             </div>  
         </div>
 
@@ -301,13 +323,12 @@
                 <button class="order-btn">Add to cart</button>
                 <button class="wrapper-5__right__btn-2">Explore More</button>
             </div>
-            <div class="arrow-slider-2">
-                <img class="arrow-slider-img" src="./svg/Group 35.png">
-            </div>
+        </div>
+        <div class="arrow-slider-2">
+            <img class="arrow-slider-img_2" src="./svg/Group 35.png">
         </div>
     </div>
 </section>
-
 
 <section class="wrapper-6">
     <div class="wrapper-6__section__up">
@@ -325,25 +346,25 @@
         </div>
 
         <div class="wrapper-6__section__services">
-            <p class="section__services__S-1">Services</p>
-            <p class="section__services__E-1">Email Marketing</p>
-            <p class="section__services__C-1">Campaigns</p>
-            <p class="section__services__B-1">Branding</p>
-            <p class="section__services__O-1">Offline</p>
+            <p class="section__services__title-green">Services</p>
+            <p class="section__services__title-black">Email Marketing</p>
+            <p class="section__services__title-black">Campaigns</p>
+            <p class="section__services__title-black">Branding</p>
+            <p class="section__services__title-black">Offline</p>
         </div>
 
         <div class="wrapper-6__section__about">
-            <p class="section__about__A-2">About</p>
-            <p class="section__about__O-2">Our Story</p>
-            <p class="section__about__B-2">Benefits</p>
-            <p class="section__about__T-2">Team</p>
-            <p class="section__about__C-2">Careers</p>
+            <p class="section__services__title-green">About</p>
+            <p class="section__services__title-black">Our Story</p>
+            <p class="section__services__title-black">Benefits</p>
+            <p class="section__services__title-black">Team</p>
+            <p class="section__services__title-black">Careers</p>
         </div>
 
         <div class="wrapper-6__section__help">
-            <p class="wrapper-6__section__help__H-3">Help</p>
-            <p class="wrapper-6__section__help__F-3">FAQs</p>
-            <p class="wrapper-6__section__help__C-3">Contact Us</p>
+            <p class="section__services__title-green">Help</p>
+            <p class="section__services__title-black">FAQs</p>
+            <p class="section__services__title-black">Contact Us</p>
         </div>
 
         <div class="wrapper-6__section__footer">
@@ -355,9 +376,8 @@
             <img class="section__shape" src="./svg/004-instagram.png" alt="instagram.png">
             </div>
         </div> 
-
-
-
 </section>
+
 </body>
+<script src="./js/main.js"></script>
 </html>

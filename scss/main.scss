@@ -980,7 +980,22 @@ html {
 			align-items: center;
 			flex-direction: column;
 			position: relative;
-				.wrapper-6__section__up{
+			.section__services__title-green{
+				font-family: DM Sans;
+				font-weight: 400;
+				font-size: 17px;
+				letter-spacing: -0.2px;
+				color: #10B981;
+				width: 48px;
+			}
+			.section__services__title-black{
+				color: #111111;
+				font-family: DM Sans;
+				font-weight: 400;
+				font-size: 15px;
+				letter-spacing: -0.2px;
+			}
+			.wrapper-6__section__up{
 				width: 1068px;
 				height: 91px;
 				position: relative;
@@ -1075,41 +1090,6 @@ html {
 				right: 65px;
 				bottom: 140px;
 				line-height: 35px;
-				.section__services__S-1{
-					font-family: DM Sans;
-					font-weight: 400;
-					font-size: 17px;
-					letter-spacing: -0.2px;
-					color: #10B981;
-				}
-				.section__services__E-1{
-					color: #111111;
-					font-family: DM Sans;
-					font-weight: 400;
-					font-size: 15px;
-					letter-spacing: -0.2px;
-				}
-				.section__services__C-1{
-					color: #111111;
-					font-family: DM Sans;
-					font-weight: 400;
-					font-size: 15px;
-					letter-spacing: -0.2px;
-				}
-				.section__services__B-1{
-					color: #111111;
-					font-family: DM Sans;
-					font-weight: 400;
-					font-size: 15px;
-					letter-spacing: -0.2px;
-				}
-				.section__services__O-1{
-					color: #111111;
-					font-family: DM Sans;
-					font-weight: 400;
-					font-size: 15px;
-					letter-spacing: -0.2px;
-				}
 			}
 			.wrapper-6__section__about{
 				width: 106px;
@@ -1118,42 +1098,6 @@ html {
 				left: 170px;
 				bottom: 316px;
 				line-height: 35px;
-				.section__about__A-2{
-					font-family: DM Sans;
-					font-weight: 400;
-					font-size: 17px;
-					letter-spacing: -0.2px;
-					color: #10B981;
-					width: 48px;
-				}
-				.section__about__O-2{
-					color: #111111;
-					font-family: DM Sans;
-					font-weight: 400;
-					font-size: 15px;
-					letter-spacing: -0.2px;
-				}
-				.section__about__B-2{
-					color: #111111;
-					font-family: DM Sans;
-					font-weight: 400;
-					font-size: 15px;
-					letter-spacing: -0.2px;
-				}
-				.section__about__T-2{
-					color: #111111;
-					font-family: DM Sans;
-					font-weight: 400;
-					font-size: 15px;
-					letter-spacing: -0.2px;
-				}
-				.section__about__C-2{
-					color: #111111;
-					font-family: DM Sans;
-					font-weight: 400;
-					font-size: 15px;
-					letter-spacing: -0.2px;
-				}
 			}
 			.wrapper-6__section__help{
 				width: 106px;
@@ -1162,27 +1106,6 @@ html {
 				left: 352px;
 				bottom: 490px;
 				line-height: 35px;
-				.wrapper-6__section__help__H-3{
-					color: #10B981;
-					font-family: DM Sans;
-					font-weight: 400;
-					font-size: 18px;
-					letter-spacing: -0.2px;
-				}
-				.wrapper-6__section__help__F-3{
-					color: #111111;
-					font-family: DM Sans;
-					font-weight: 400;
-					font-size: 15px;
-					letter-spacing: -0.2px;
-				}
-				.wrapper-6__section__help__C-3{
-					color: #111111;
-					font-family: DM Sans;
-					font-weight: 400;
-					font-size: 15px;
-					letter-spacing: -0.2px;
-				}
 			}
 			.wrapper-6__section__footer{
 				width: 1068px;
