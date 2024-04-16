@@ -14,6 +14,9 @@ html {
   justify-content: center;
 }
 body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
   background-color: var(--primary-bg);
 }
@@ -570,7 +573,6 @@ header {
   align-items: center;
   flex-direction: column;
   position: relative;
-  height: 829px;
   margin-top: 121px;
 }
 .wrapper-3__title {
@@ -582,39 +584,7 @@ header {
   text-align: 0;
   color: #000;
 }
-.wrapper-3__btns {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 92px;
-}
-.wrapper-3__btns__top-picks {
-  background-color: #10b981;
-  border-radius: 100%;
-  width: 177px;
-  height: 91px;
-  font-family: Montserrat;
-  font-size: 26px;
-  font-weight: 600;
-  line-height: 32px;
-  letter-spacing: 0em;
-  color: #ffffff;
-  position: relative;
-  top: 55px;
-  right: 41px;
-}
-.wrapper-3__btns__watches {
-  width: 118px;
-  height: 32px;
-  font-family: Montserrat;
-  font-size: 26px;
-  font-weight: 600;
-  line-height: 32px;
-  letter-spacing: 0em;
-  text-align: left;
-  position: relative;
-  top: 88px;
-  left: 8px;
-}
+
 .cards {
   display: flex;
   gap: 92px;
@@ -781,8 +751,10 @@ header {
 }
 .cards {
   display: flex;
+  width: 1440px;
+  flex-wrap: wrap;
   gap: 92px;
-}
+  }
 .card__section {
   position: relative;
   display: flex;

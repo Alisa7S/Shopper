@@ -301,6 +301,9 @@
     .wrapper-5__section__airdrop__right {
         right: 21px;
     }
+    .arrow-slider {
+        display: none;
+    }
     .arrow-slider-1 {
         left: 30px;
     }
