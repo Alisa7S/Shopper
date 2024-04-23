@@ -12,11 +12,11 @@ SellersTabBtns.addEventListener('click',(event)=> {
         btn.classList.remove('active')
     })
     target.classList.add('active')
-    //SellersCards.replaceWith('')
+        
     if(target.innerText == "Top Picks"){
-        getCards(cardInfoTopPicksList,SellersCards)
+        getCards(cardInfoTopPicksList, SellersCards)
     }else{
-        getCards(cardInfoList,SellersCards)
+        getCards(cardInfoWatchesList, SellersCards)
     }
 
 })
@@ -30,9 +30,13 @@ EarphonesTabBtns.addEventListener('click',(event)=> {
     tabBtnActive.forEach(btn => {
         btn.classList.remove('active')
     })
-    target.classList.add('active')
-
-    //getCards(cardInfoList,EarphonesCards)
+    
+    if(target.innerText == "Wireless"){
+        getCards(cardInfoWatchesList, EarphonesCards)
+    }else{
+        getCards(cardInfoWatchesList, EarphonesCards)
+    }
+    
 })
  
 
@@ -66,30 +70,29 @@ const cardInfoWatchesList = [{
 }]
 
 function getCards(cardInfoList, elem){
-    const arr = cardInfoList.forEach(cardInfo => {
-         const tab =  
-         `<div class="card">
-         <div class="card__section bg-card-section-color-2">
-         <div class="card__section__save bg-save-color-1">Save <br>60%</div>
-         <img class="card__section__product-img" src="./img/Boat Rockerz 333-1.png" alt="Boat Rockerz 333.png">
-             <div class="card__section__info">
-                 <p class="card__section__info__name">${cardInfo.cardTitle}</p>
-                 <div class="card__section__info__rating">
-                     <img src="./svg/small-star.svg" alt="small-star.svg">
-                     <img src="./svg/small-star.svg" alt="small-star.svg">
-                     <img src="./svg/small-star.svg" alt="small-star.svg">
-                     <img src="./svg/small-star.svg" alt="small-star.svg">
-                     <img src="./svg/small-star.svg" alt="small-star.svg">
-                     <p class="card__section__info__rating__reviews">${cardInfo.reviews} Reviews</p>
-                 </div>
-                 <p class="card__section__info__price">$${cardInfo.price}</p>
-             </div>
-         </div>
-         <button class="card__btn">Add to cart</button>
-     </div>`
-        elem.insertAdjacentHTML('beforeend',tab)
-        
-    })
+    const arr = cardInfoList.map(cardInfo => {
+        const tab =  `<div class="card">
+                    <div class="card__section bg-card-section-color-2">
+                    <div class="card__section__save bg-save-color-1">Save <br>60%</div>
+                    <img class="card__section__product-img" src="./img/Boat Rockerz 333-1.png" alt="Boat Rockerz 333.png">
+                        <div class="card__section__info">
+                            <p class="card__section__info__name">${cardInfo.cardTitle}</p>
+                            <div class="card__section__info__rating">
+                                <img src="./svg/small-star.svg" alt="small-star.svg">
+                                <img src="./svg/small-star.svg" alt="small-star.svg">
+                                <img src="./svg/small-star.svg" alt="small-star.svg">
+                                <img src="./svg/small-star.svg" alt="small-star.svg">
+                                <img src="./svg/small-star.svg" alt="small-star.svg">
+                                <p class="card__section__info__rating__reviews">${cardInfo.reviews} Reviews</p>
+                            </div>
+                            <p class="card__section__info__price">$${cardInfo.price}</p>
+                        </div>
+                    </div>
+                    <button class="card__btn">Add to cart</button>
+                </div>`
+        return tab
+    }) 
+    elem.insertAdjacentHTML('beforeend',arr.join(''))
 }
 
 
