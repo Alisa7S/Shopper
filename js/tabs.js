@@ -1,3 +1,5 @@
+// import getCards from './getCards.js'
+
 
 const SellersCards = document.querySelector('.wrapper-3').querySelector('.cards')
 const EarphonesCards = document.querySelector('.wrapper-4').querySelector('.cards')
@@ -70,19 +72,20 @@ const cardInfoWatchesList = [{
 }]
 
 function getCards(cardInfoList, elem){
+    elem.innerHTML=''
     const arr = cardInfoList.map(cardInfo => {
         const tab =  `<div class="card">
                     <div class="card__section bg-card-section-color-2">
                     <div class="card__section__save bg-save-color-1">Save <br>60%</div>
-                    <img class="card__section__product-img" src="./img/Boat Rockerz 333-1.png" alt="Boat Rockerz 333.png">
+                    <img class="card__section__product-img" src="../src/img/Boat Rockerz 333-1.png" alt="Boat Rockerz 333.png">
                         <div class="card__section__info">
                             <p class="card__section__info__name">${cardInfo.cardTitle}</p>
                             <div class="card__section__info__rating">
-                                <img src="./svg/small-star.svg" alt="small-star.svg">
-                                <img src="./svg/small-star.svg" alt="small-star.svg">
-                                <img src="./svg/small-star.svg" alt="small-star.svg">
-                                <img src="./svg/small-star.svg" alt="small-star.svg">
-                                <img src="./svg/small-star.svg" alt="small-star.svg">
+                                <img src="../src/svg/small-star.svg" alt="small-star.svg">
+                                <img src="../src/svg/small-star.svg" alt="small-star.svg">
+                                <img src="../src/svg/small-star.svg" alt="small-star.svg">
+                                <img src="../src/svg/small-star.svg" alt="small-star.svg">
+                                <img src="../src/svg/small-star.svg" alt="small-star.svg">
                                 <p class="card__section__info__rating__reviews">${cardInfo.reviews} Reviews</p>
                             </div>
                             <p class="card__section__info__price">$${cardInfo.price}</p>
