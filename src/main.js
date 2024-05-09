@@ -1,5 +1,3 @@
-const getCards = require('..js/getCards.js') 
-
 const mobileMenu = document.querySelector('.mobile-menu')
 const navbar = document.querySelector('.navbar')
 
