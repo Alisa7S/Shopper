@@ -1,0 +1,13 @@
+
+@import './_fonts.css';
+@import './_button.css';
+@import './_card.css'; 
+
+:root {
+   --primary: #10b981;
+   --primary-hover: #0b89be;
+   --primary-bg: #f5f5f5;
+   --tetprimarycolor: #2b2626;
+   --primary-products: #845ec2;
+   --main-text-size:40px;
+}

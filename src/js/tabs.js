@@ -1,6 +1,6 @@
 import getCards from './get-cards.js'
 
-export default function tabs(tabNames, dataCards, tabContainerElement) {
+export default function tabs(tabNames,dataCards,tabContainerElement ){
     // tabNames - string[]
     // dataCards - {
     //     cardTitle: string,
@@ -12,14 +12,14 @@ export default function tabs(tabNames, dataCards, tabContainerElement) {
     if(!tabContainerElement) {
         return
     }
-
-    const tabCardWrapper = document.querySelector(`${tabContainerElement}`).querySelector('.cards')
-    const tabBtnWrapper = document.querySelector(`${tabContainerElement}`).querySelector('.tab-section')
+    
+    const tabCardWrapper =  document.querySelector(`${tabContainerElement}`).querySelector('.tab__card-wrapper')
+    const tabBtnWrapper =document.querySelector(`${tabContainerElement}`).querySelector('.tab__btn-wrapper')
 
     tabBtnWrapper.addEventListener("click",(event)=>{
         const target = event.target
         const emptyWrapper = document.createElement('div')
-        emptyWrapper.classList.add('tab-section')
+        emptyWrapper.classList.add('tab__card-wrapper')
         
     
         const ovalButtons = tabBtnWrapper.querySelectorAll('button')
@@ -31,7 +31,12 @@ export default function tabs(tabNames, dataCards, tabContainerElement) {
         tabNames.forEach((tab,index) =>{
           if( tab == target.innerText){
               getCards(dataCards[index],tabCardWrapper)
+
           }
         })        
     })
 }
+
+
+
+
